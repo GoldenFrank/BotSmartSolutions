@@ -122,23 +122,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Call Us</h3>
-                  <p className="text-blue-100">+1 (555) 123-4567</p>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-                viewport={{ once: true }}
-                className="flex items-center space-x-4"
-              >
-                <div className="bg-white/20 p-3 rounded-lg">
-                  <MapPin className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold">Visit Us</h3>
-                  <p className="text-blue-100">San Francisco, CA</p>
+                  <p className="text-blue-100">+254742241585</p>
                 </div>
               </motion.div>
             </div>

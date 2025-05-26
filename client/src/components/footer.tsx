@@ -20,20 +20,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-6 max-w-md">
               Empowering businesses with intelligent automation, secure web development, and impactful digital strategies. Technology that works for you.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-primary transition-colors">
-                <Github className="w-5 h-5" />
-              </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-primary transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
+
           </motion.div>
 
           <motion.div
@@ -60,7 +47,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-6">Company</h3>
             <ul className="space-y-4 text-gray-400">
               <li><a href="#about" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#portfolio" className="hover:text-white transition-colors">Portfolio</a></li>
+
               <li><a href="#contact" className="hover:text-white transition-colors">Careers</a></li>
               <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
