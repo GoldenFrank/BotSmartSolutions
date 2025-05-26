@@ -50,8 +50,8 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  const port = process.env.PORT || 5000;
+  const port = parseInt(process.env.PORT || "5000", 10);
   server.listen(port, () => {
-    log(`Server is running on port ${port}`);
+    log(`✅ Server is running on http://localhost:${port}`);
   });
 })();
